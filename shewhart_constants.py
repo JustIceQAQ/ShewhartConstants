@@ -23,7 +23,7 @@ class ShewhartConstants:
             cls._instance = super().__new__(cls)
         return cls._instance
 
-    def __init__(self): # noqa NOSONAR
+    def __init__(self):  # noqa NOSONAR
         pass
 
     def d2(self, n: int):
@@ -91,8 +91,8 @@ class SCTitle(str, enum.Enum):
     d2 = "d2"
     d3 = "d3"
     c4 = "c4"
-    A2 = "A2"
-    A3 = "A3"
+    A2 = "A2"  # noqa NOSONAR
+    A3 = "A3"  # noqa NOSONAR
     D3 = "D3"  # noqa NOSONAR
     D4 = "D4"  # noqa NOSONAR
     B3 = "B3"  # noqa NOSONAR
