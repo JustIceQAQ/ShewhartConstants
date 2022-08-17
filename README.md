@@ -58,3 +58,7 @@ sc.B3(n)
 
 sc.B4(n)
 ```
+
+# 參考
+https://r-bar.net/control-chart-constants-tables-explanations/
+https://v8doc.sas.com/sashtml/qc/chapc/sect1.htm
